@@ -1,0 +1,6 @@
+# Ignora arquivos temporários criados pelo Robot Framework
+*.log
+*.html
+*.xml
+
+/*log
