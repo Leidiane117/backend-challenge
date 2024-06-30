@@ -20,7 +20,7 @@ T5: validar role
    validar role    Role=Admininstrador     Seed=7841     Name=Joao
    
 T6: validar seed
-  Validar Seed      Role=Admininstrador      Seed=50    Name=Joao
+  Validar Seed      Role=Admin      Seed=50    Name=Joao
 
 
 CT03: Validar JWT
