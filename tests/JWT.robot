@@ -22,6 +22,10 @@ T5: validar role
 T6: validar seed
   Validar Seed      Role=Admininstrador      Seed=50    Name=Joao
 
+T7: validar jwt
+  [Tags]    12
+  Validar campos nulos ou vazios dos claims          Role=Admin      Seed=50     Name=Joao   
+
 
 CT03: Validar JWT
   [Documentation]  Validar  JWT
@@ -36,13 +40,7 @@ CT03: Validar JWT
 
 
 ****Comments***
-Cenário: JWT com valor do Role inválido
-Role  Admin, Member ou Externa
 
-
-Cenário: Seed não primo
-Seed número primo
-Seed número par, exceto 2
 
 Cenário: Valores vazios ou nullos nos claims
 Name “vazio” ou nullo
