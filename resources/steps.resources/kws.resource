@@ -54,13 +54,15 @@ Validar campos nulos ou vazios dos claims
   ${value_seed} =	Get From Dictionary	  ${json}	 Seed
   ${value_role} =	Get From Dictionary	  ${json}	 Role
   ${value_name} =	Get From Dictionary	  ${json}	 Name
-  Should Not Be Empty    ${value_seed}
-  Should Not Be Empty    ${value_role}
-  Should Not Be Empty    ${value_name}
-  Should Not Be Equal    ${value_seed}    null
-  Should Not Be Equal    ${value_role}    null
-  Should Not Be Equal    ${value_name}    null
+  Should Not Contain Any	${value_seed}    null   Null   ""
+  Should Not Contain Any	${value_role}    null   Null   ""
+  Should Not Contain Any	${value_name}    null   Null   ""
 
-
-
-  
+Validar JWT
+   [Arguments]    &{json}
+   Validar quantidade claim    &{json}
+   Validar chave   &{json}
+   Validar campos nulos ou vazios dos claims    &{json}
+   Validar Name sem numeros e 256 caracteres    &{json}
+   Validar Role    &{json}
+   Validar Seed    &{json}
