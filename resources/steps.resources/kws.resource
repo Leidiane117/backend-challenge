@@ -59,10 +59,10 @@ Validar campos nulos ou vazios dos claims
   Should Not Contain Any	${value_name}    null   Null   ""
 
 Validar JWT
-   [Arguments]    &{json}
-   Validar quantidade claim    &{json}
-   Validar chave   &{json}
-   Validar campos nulos ou vazios dos claims    &{json}
-   Validar Name sem numeros e 256 caracteres    &{json}
-   Validar Role    &{json}
-   Validar Seed    &{json}
+  [Arguments]    &{json}
+  Validar quantidade claim    &{json}
+  Validar chave   &{json}
+  Validar campos nulos ou vazios dos claims    &{json}
+  Validar Name sem numeros e 256 caracteres    &{json}
+  Validar Role    &{json}
+  Validar Seed    &{json}

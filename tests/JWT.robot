@@ -11,5 +11,5 @@ CT01: Validar JWT
   ...  JWT com valor do Role válido
   ...  Seed primo
   ...  Valores vazios ou nullos nos claims
-   Validar JWT           Role=Admin      Seed=50    Name=Joao
+  Validar JWT           Role=Admin      Seed=50    Name=Joao
 
