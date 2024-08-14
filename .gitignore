@@ -2,5 +2,7 @@
 *.log
 *.html
 *.xml
-
 /*log
+
+#Arquivos da IDE
+.idea
