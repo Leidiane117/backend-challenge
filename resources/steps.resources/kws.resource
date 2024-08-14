@@ -9,7 +9,8 @@ Validar quantidade claim
   ${result}   Get Dictionary Keys   ${json}
   ${total}    Get Length         ${result}
   Length Should Be    ${result}    3
-
+  
+  
 Validar chave
   [Arguments]   &{json}
   ${result}   Get Dictionary Keys   ${json}
@@ -29,9 +30,12 @@ Validar Name sem numeros e 256 caracteres
 Validar Role
   [Arguments]   &{json}
   ${value_role} =	Get From Dictionary	  ${json}	 Role
-  IF   '${value_role}'=!'Admin' or '${value_role}'=!'Member' or '${value_role}'=!'External'
-        Fail   Valores inválidos
+  IF   '${value_role}' == 'Admin' or '${value_role}' == 'Member' or '${value_role}' =='External'
+      Log   Valores Válidos
+  ELSE
+    Fail    Valores de Role inválidos
   END
+
 
 Validar Seed
   [Arguments]   &{json}
@@ -39,7 +43,7 @@ Validar Seed
   FOR    ${counter}    IN RANGE    2      ${value_seed}
          ${is_divisible}    Evaluate    int(${value_seed}) % ${counter} == 0
       IF  ${is_divisible}
-          Fail    NÃO É PRIMO
+          Fail    Sed NÃO É PRIMO
       END
   END
 
