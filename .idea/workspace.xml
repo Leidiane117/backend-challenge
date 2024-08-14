@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbd1ef9-55d8-46e0-b31e-7d413bdcb728" name="Changes" comment="Finalização das validações" />
+    <list default="true" id="fdbd1ef9-55d8-46e0-b31e-7d413bdcb728" name="Changes" comment="Finalização das validações">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/main.resource" beforeDir="false" afterPath="$PROJECT_DIR$/resources/main.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/steps.resources/kws.resource" beforeDir="false" afterPath="$PROJECT_DIR$/resources/steps.resources/kws.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/JWT.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/JWT.robot" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,10 +45,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JavaScript Debug.log.html.executor": "Run",
+    "Robot Framework.run [CT01: Validar JWT].executor": "Run",
     "Robot Framework.run [CT03: Validar JWT].executor": "Run",
     "Robot Framework.run [T7: validar jwt].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging branch-1",
+    "git-widget-placeholder": "branch-1",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/leidiane-souza/Documentos/WorksPace/backend-challenge",
     "node.js.detected.package.eslint": "true",
@@ -81,6 +90,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finalização das validações" />

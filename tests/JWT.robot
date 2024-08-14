@@ -6,10 +6,9 @@ Test Tags            jwt
 *** Test Cases ***
 CT01: Validar JWT
   [Documentation]  Validar  JWT
-  ...  JWT com claim válido
-  ...  JWT com Name válido
-  ...  JWT com valor do Role válido
-  ...  Seed primo
-  ...  Valores vazios ou nullos nos claims
-  Validar JWT           Role=Admin      Seed=50    Name=Joao
-
+  Validar JWT           Role=Admin      Seed=5      Name=fjdkalfjdlasjfdalsjfdkaslfjdkaslfjwoeurqoreuofjldfuqpoiweurjflajfoqiuweroepqjfldafjfdlkghdfosdjafljfdsljfutroiewruqutqoiwueroiwueroiuqweoruwoiuerodfsfjaklsdhgjçlflksajwoiuerlkjfsrewqrjlkdjsflkasdjflkasjdflajslfjafjaksrewqoiurweuroqiwuqoueqwdjuwlsowloslwoiow
+  
+CT02: Validar JWT Role inválido 
+  [Documentation]  Simulação ERRO role inválido
+  Validar JWT           Role=Administrador      Seed=5      Name=Leidiane Soares
+  
